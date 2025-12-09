@@ -1,0 +1,55 @@
+
+=====================================================
+||     RUNTIME PREDICTIONS FOR TETIS V9.1        ||
+=====================================================
++---------------------------------------------------+
+|                TOPOLCO PREDICTION                 |
++---------------------------------------------------+
+|                                                   |
+| PREDICTOR VARIABLES (min)                         |
+|                                                   |
+| Max turbo frequency: 4.9 GHz
+| Basin cells: 37037
+| RAM memory: 128.0 Gb
+| Cores: 12.0
+| Threads: 20.0
++---------------------------------------------------+
+|                                                   |
+| EXPECTED TIME (min)                               |
+|                                                   |
+| Expected mean time: 0.026 min
+| Estimated time range: 0.022 min  to 0.032 min
++---------------------------------------------------+
+|                                                   |
+| MODEL VALIDATION (100 MC simulations)
+|                                                   |
+| Average RMSE: 0.766
+| Average R²:   0.926
++---------------------------------------------------+
+
+=====================================================
+
++---------------------------------------------------+
+|        HYDROLOGICAL SIMULATION PREDICTION         |
++---------------------------------------------------+
+|                                                   |
+| PREDICTOR VARIABLES (min)                         |
+|                                                   |
+| Max turbo frequency: 4.9 GHz
+| Basin cells: 37037
+| Time steps: 11321
+| Input gauges: 9.0
+| Output gauges: 12.0
++---------------------------------------------------+
+|                                                   |
+| EXPECTED TIME (min)                               |
+|                                                   |
+| Expected mean time: 4.541 min
+| Estimated time range: 3.445 min  to 6.423 min
++---------------------------------------------------+
+|                                                   |
+| MODEL VALIDATION (100 MC simulations)
+|                                                   |
+| Average RMSE: 58.889
+| Average R²:   0.988
++---------------------------------------------------+

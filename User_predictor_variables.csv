@@ -1,0 +1,12 @@
+Predictor variables ,Value
+Max turbo frequency,4.9
+Basin area_km2,300
+Cell size_m,90
+Initial date_ddmmaaaa hh:mm,1/01/2061 0:00
+Final date_ddmmaaaa hh:mm,31/12/2091 0:00
+Delta t_minutes,1440
+Number input gauges,9
+Number output gauges,12
+RAM memory,128
+Cores,12
+Threads,20
