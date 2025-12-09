@@ -19,21 +19,20 @@ To predict TETIS execution times for your specific simulation and hardware confi
 
 ### Step 1: Download and Prepare the Tool
 
-1.  **Clone the Repository:** Download this repository to your local machine.
-    ```bash
-    git clone https://github.com/YourUsername/TETIS_Time_Predictor.git
-    ```
-2.  **Uncompress the Predictor:** Locate and decompress the **`TETIS_time_Predictor.zip`** file. This action will unpack the necessary execution files and the input template.
+1.  **Download the folder** `TETIS_Time_Predictor.zip` to your local machine.
+2.  **Uncompress the Predictor .zip**. This action will unpack the necessary execution files and the input template.
 
 ### Step 2: Define Your Scenario
 
 1.  **Locate Input File:** Navigate into the uncompressed directory and find the input template: **`User_predictor_variables.csv`**.
-2.  **Modify Predictor Data:** Open **`User_predictor_variables.csv`** and modify the values of the predictor variables (e.g., number of cells, time steps, RAM, clock speed) to match **your specific simulation scenarios and hardware configuration**.
+2.  **Modify Predictor Data:** Open **`User_predictor_variables.csv`** and modify the values of the predictor variables  (e.g., Max turbo frequency, Basin area_km2, Cell size_m, RAM, Initial date, Final date, Delta t_minutes, input gauges, output gauges, RAM memory, Cores, Threads) to match **your specific simulation scenarios and hardware configuration**.
+   
+**Note:** the tool has been programmed to predict combinations of parameters provided by the user. It should be noted that some combinations do not generate results, therefore it is advisable to enter all the parameters.
 
 ### Step 3: Run the Prediction
 
-1.  **Execute the Script:** Run the main Python script (e.g., `main_predictor.py`, depending on your actual file name) to initiate the prediction process. (You will need Python and the necessary ML libraries installed, such as `scikit-learn` and `pandas`).
-2.  **View Results:** A new output file named **`Prediction_results.txt`** will be created in the same directory. This file contains the estimated execution times (runtime) and the associated uncertainty ranges for the scenarios defined in your input CSV file.
+1.  **Execute the 'RF_Prediction_TETIS.py'** to initiate the prediction process. (You will need Python and the necessary ML libraries installed, such as `scikit-learn` and `pandas`).
+2.  **View Results in output file `Prediction_results.txt`**. This file contains the estimated execution times (runtime) and the associated uncertainty ranges for the scenarios defined in your input CSV file.
 
 -----
 
